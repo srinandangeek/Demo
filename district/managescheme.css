@@ -1,0 +1,143 @@
+@media (min-width: 992px) {
+    .col-md-3 {
+        margin-bottom: 5px;
+    }
+}
+
+.Dep-title {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.logoup {
+    /* background-image: url(../images/up-logo.gif); */
+    background-repeat: no-repeat;
+    min-height: 91px;
+    min-width: 91px;
+    margin-top: 10px;
+    float: right;
+}
+
+.Dep-title h1 {
+    color: #cb1420;
+    text-decoration: none;
+    font-family: 'Oswald', Sans-serif;
+    font-weight: normal;
+    padding: 0px;
+    margin-top: 19px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    line-height: 12px;
+    font-size: 24px;
+}
+
+.right-align {
+    text-align:right;
+    background-color:lightgray
+}
+
+.Dep-title h2 {
+    color: #747474;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    font-family: Calibri, Sans-serif;
+}
+.right-align {
+    text-align:right;
+}
+
+.txt-disabled { 
+    text-align:right;   
+    background-color:lightgray
+}
+.control-label-normal
+{
+    font:12px;
+    font-weight:normal;
+   color:darkcyan
+}   
+.custab {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+
+/*header  start*/
+
+.navbar {
+    border-radius: 0;
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .navbar-nav > li > a:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+/*header  end*/
+    section {
+    width: 100%;
+    float: left;
+}
+
+.banner-section {
+    background-image: url("https://static.pexels.com/photos/373912/pexels-photo-373912.jpeg");
+    background-size: cover;
+    height: 100px;
+    left: 0;
+    /*position: absolute;*/
+    top: 0;
+    background-position: 0;
+    border-bottom: 1px solid #333;
+    background-color: #333;
+}
+
+.post-title-block {
+    padding: 100px 0;
+}
+
+    .post-title-block h1 {
+        color: #fff;
+        font-size: 85px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .post-title-block li {
+        font-size: 20px;
+        color: #fff;
+    }
+
+.image-block {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    float: left;
+    width: 100%;
+    background: #222222;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
+
+    .footer-link a {
+        color: #A9FD00;
+        text-transform: uppercase;
+    }
